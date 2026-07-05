@@ -954,13 +954,13 @@ div[class*="winButton_"]:nth-last-child(2) svg {
     color: #004d00 !important;
 }
 
-div[class*="menu_"][role="menu"] {
-    background-color: rgba(15, 15, 15, 0.6) !important;
+[role="menu"] {
+    background-color: rgba(20, 20, 20, 0.6) !important;
     backdrop-filter: blur(15px) !important;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
-
-div[class*="menu_"][role="menu"] div[class*="scroller_"] {
+[role="menu"] [class*="scroller_"],
+[role="menu"] [class*="submenu_"] {
     background: transparent !important;
 }
